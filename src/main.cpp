@@ -76,6 +76,12 @@ int main() {
                   << altitude << "m, Velocity: " << velocity_mag << "m/s\n";
       }
 
+      // Check if the altitude is below zero
+      if (altitude < 0) {
+        std::cout << "The rocket has crashed.\n";
+        break; // Exit the simulation loop
+      }
+
       sim.step();
     }
 

@@ -1,6 +1,7 @@
 #pragma once
 #include "../math/vec3.hpp"
 #include <algorithm>
+#include <stdexcept>
 
 class RocketBody {
 private:

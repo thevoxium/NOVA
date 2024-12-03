@@ -1,5 +1,6 @@
 nova
 .DS_Store
+.venv
 src/.DS_Store
 src/math/.DS_Store
 src/physics/.DS_Store
